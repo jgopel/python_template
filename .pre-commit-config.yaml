@@ -68,7 +68,7 @@ repos:
   # Python
   ## Fixers
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.20.0
+    rev: v3.21.0
     hooks:
       - id: pyupgrade
   - repo: https://github.com/PyCQA/autoflake
@@ -119,12 +119,12 @@ repos:
           - flake8-tidy-imports
   ## Formatters
   - repo: https://github.com/pycqa/isort
-    rev: 6.0.1
+    rev: 6.1.0
     hooks:
       - id: isort
         name: isort (python)
   - repo: https://github.com/psf/black
-    rev: 25.1.0
+    rev: 25.9.0
     hooks:
       - id: black
   - repo: https://github.com/adamchainz/blacken-docs
@@ -135,7 +135,7 @@ repos:
           - black==25.1.0
   ## Linters
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.18.1
+    rev: v1.18.2
     hooks:
       - id: mypy
         additional_dependencies:
