@@ -41,7 +41,7 @@ repos:
     hooks:
       - id: yamlfmt
   - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-    rev: v2.15.0
+    rev: v2.16.0
     hooks:
       - id: pretty-format-toml
         args:
@@ -57,7 +57,7 @@ repos:
           - --wrap=80
 
   - repo: https://github.com/lovesegfault/beautysh
-    rev: v6.4.2
+    rev: v6.4.3
     hooks:
       - id: beautysh
   - repo: https://github.com/shellcheck-py/shellcheck-py
@@ -72,7 +72,7 @@ repos:
     hooks:
       - id: pyupgrade
   - repo: https://github.com/PyCQA/autoflake
-    rev: v2.3.1
+    rev: v2.3.3
     hooks:
       - id: autoflake
         name: autoflake
@@ -119,12 +119,12 @@ repos:
           - flake8-tidy-imports
   ## Formatters
   - repo: https://github.com/pycqa/isort
-    rev: 7.0.0
+    rev: 8.0.1
     hooks:
       - id: isort
         name: isort (python)
   - repo: https://github.com/psf/black
-    rev: 25.12.0
+    rev: 26.3.1
     hooks:
       - id: black
   - repo: https://github.com/adamchainz/blacken-docs
@@ -135,7 +135,7 @@ repos:
           - black==25.12.0
   ## Linters
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.19.1
+    rev: v1.20.0
     hooks:
       - id: mypy
         additional_dependencies:
